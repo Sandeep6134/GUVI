@@ -1,0 +1,174 @@
+.wrap{
+    margin:0px;
+    padding:0px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+nav{
+    background-color:rgb(41, 41, 41);
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 35% 35% 30%;
+    margin:0;
+    height:5%;
+    padding:5px;
+    color:white;
+    vertical-align: middle;
+}
+.menuicon{
+    height:40px;
+    width:40px;
+    vertical-align: middle;
+}
+.notif{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap:60px;
+}
+.options{ 
+    display:flex;
+    justify-content: end;
+    vertical-align:middle;
+    gap:15px;
+}
+.timeline{
+    display: grid;
+    grid-auto-columns: column;
+    grid-template-columns: 20% 60% 20%;
+    background-image: linear-gradient(to bottom,gray,rgb(73, 73, 73));
+}
+.side1{
+    background-color:black;
+    background-image: linear-gradient(to bottom,gray,rgb(73, 73, 73));
+}
+.profile{
+    background-color:black;
+    padding-bottom: 10px ;
+    color:white;
+    background-image: linear-gradient(to bottom,rgb(73,73,73),rgb(46, 46, 46));
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 25% 9% 20% 25% 20%;
+}
+.side2{
+    background-color: black;
+    background-image: linear-gradient(to bottom,rgb(73,73,73),rgb(46, 46, 46));
+}
+.side3{
+    background-color: black;
+    background-image: linear-gradient(to bottom,rgb(46, 46, 46),rgb(37, 37, 37));
+}
+
+.utility{
+    background-color: black;
+    background-image: linear-gradient(to bottom,rgb(46, 46, 46),rgb(37, 37, 37));
+    display:grid;
+    grid-auto-flow: column;
+    height:60px;
+    color:lightgray;
+    grid-template-columns: 20% 30% 30% 20%;
+}
+.srfield{
+    background-color: rgb(85, 85, 85);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    padding:10px;
+    width:50%;
+    border:0px;
+    border-radius: 20px;
+}
+footer{
+    background-color:rgb(27, 27, 27);
+    height:400px;
+    display:grid;
+    grid-auto-flow: column;
+    grid-template-columns: 21% 23% 33% 23%;
+}
+.side4{
+    background-color:rgb(27, 27, 27);
+}
+.about{
+    display:grid;
+    grid-template-rows: 50px 65px 80px;
+    background-color: rgb(51, 51, 51);
+    margin:10px;
+    border-radius: 20px;
+    color:rgb(175, 175, 175);
+    font-size: 14px;
+}
+.abt{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 10% 90%;
+    margin:5px;
+}
+.post{
+    display: grid;
+    grid-auto-rows: row;
+    background-color: rgb(27, 27, 27);
+    margin:10px;
+    border-radius: 20px;
+    color:rgb(190, 190, 190);
+}
+.login{
+    margin-top:20px;
+    border-radius: 10px;
+    border:0px;
+    color:white;
+    letter-spacing: 1px;
+    background-color:#1870E5;
+    height:40px;
+    width:80%;
+}
+.create{
+   
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    margin:10px;
+}
+.btn1{
+    display: grid;
+    grid-auto-flow: column;
+    margin: 10px;
+    grid-template-columns: auto;
+
+}
+.posts{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 10% 90%;
+    background-color: rgb(49, 49, 49);
+    border-radius: 20px;
+    margin: 10px;
+}
+.namet{
+    margin-top: 25px;
+    text-align: start;
+}
+
+.util-options{
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    justify-content: start;
+    gap:30px;
+    font-size: 14px;
+    display:grid;
+    grid-auto-flow: column;
+
+}
+
+.util-like{
+    border-top: 1px solid gray;
+    padding-top: 15px;
+    display: grid;
+    grid-auto-flow: column;
+}
+.btn{
+    background-color: rgb(99, 99, 99);
+    color:white;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    height:30px;
+    width:130px;
+    border:0px;
+}
